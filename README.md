@@ -1,16 +1,16 @@
 ### Experiment--02-Implementation-of-combinational-logic
-###Implementation of combinational logic gates
+### Implementation of combinational logic gates
 
 ### AIM:
 To implement the given logic function verify its operation in Quartus using Verilog programming. 
 F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D 
 F2=xy’z+x’y’z+w’xy+wx’y+wxy
 
-###Equipments Required:
+### Equipments Required:
 1.Hardware – PCs, Cyclone II , USB flasher
 2.Software – Quartus prime
 
-###Theory:
+### Theory:
 Logic gates are electronic circuits which perform logical functions on one or more inputs to produce one output.
 
 F=((C'.B.A)'(D'.C.A)'(C.B'.A)')'
@@ -19,9 +19,9 @@ F=((C'.B.A)'(D'.C.A)'(C.B'.A)')'
 
 2.OR gate The OR gate is an electronic circuit that gives a high output (1) if one or more of its inputs are high. A plus (+) is used to show the OR operation. Y= A+B
 
-###Logic Diagram:
+### Logic Diagram:
 
-###Procedure:
+### Procedure:
 1.Create a project with required entities.
 
 2.Create a module along with respective file name.
@@ -34,7 +34,7 @@ F=((C'.B.A)'(D'.C.A)'(C.B'.A)')'
 
 6.Give the respective inputs for timing diagram and obtain the results.
 
-###Program:
+### Program:
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 Developed by: KOTHAI K 
 RegisterNumber: 22006043
@@ -62,10 +62,13 @@ endmodule
 
 
 
-##RTL realization:
+### RTL realization:
+![combilogic1](https://user-images.githubusercontent.com/121215739/234776673-b7a5ef09-5f27-40c6-ae87-a7633af82e04.png)
+![combilogic2](https://user-images.githubusercontent.com/121215739/234776690-bffe1289-66bb-4746-bbf9-3e86a6489353.png)
 
-##Output:
-##RTL
-##Timing Diagram
-##Result:
+
+### Truth Table:
+![truthtable](https://user-images.githubusercontent.com/121215739/234778196-86915610-ab49-47ff-b6aa-f50976aaffa2.jpg)
+
+### Result:
 Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
